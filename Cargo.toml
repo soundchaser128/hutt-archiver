@@ -2,6 +2,8 @@
 name = "hutt-archiver"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/soundchaser128/hutt-archiver"
+authors = ["soundchaser128 <soundchaser128@gmail.com>"]
 
 [dependencies]
 camino = { version = "1.1.6", features = ["serde1"] }
