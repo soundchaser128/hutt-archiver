@@ -1,0 +1,5 @@
+/target
+.env
+*.sqlite3
+config.json5
+titles.json

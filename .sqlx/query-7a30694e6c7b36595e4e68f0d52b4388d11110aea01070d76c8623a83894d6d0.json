@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "UPDATE post_links SET file_path = ?, file_path_pattern = ? WHERE rowid = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 3
+    },
+    "nullable": []
+  },
+  "hash": "7a30694e6c7b36595e4e68f0d52b4388d11110aea01070d76c8623a83894d6d0"
+}

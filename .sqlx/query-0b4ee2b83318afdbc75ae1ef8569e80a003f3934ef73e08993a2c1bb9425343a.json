@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "UPDATE post_links SET status = 'error', error = ? WHERE rowid = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": []
+  },
+  "hash": "0b4ee2b83318afdbc75ae1ef8569e80a003f3934ef73e08993a2c1bb9425343a"
+}

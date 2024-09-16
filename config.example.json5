@@ -1,0 +1,13 @@
+{
+  // required:
+  creatorName: "<NAME HERE>",
+  creatorId: 123456,
+  cookie: "<ENTER COOKIE HERE>",
+
+  // optional, adjust if desired
+  downloadDirectory: "./downloads",
+  filenamePattern: {
+    video: "{type}/{post_id} - {title} - {link_id}",
+    image: "{type}/{post_id} - {title}/{link_id}",
+  },
+}

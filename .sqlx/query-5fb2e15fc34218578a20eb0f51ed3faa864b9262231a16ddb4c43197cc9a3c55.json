@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "UPDATE post_links SET status = 'pending' WHERE rowid = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "5fb2e15fc34218578a20eb0f51ed3faa864b9262231a16ddb4c43197cc9a3c55"
+}

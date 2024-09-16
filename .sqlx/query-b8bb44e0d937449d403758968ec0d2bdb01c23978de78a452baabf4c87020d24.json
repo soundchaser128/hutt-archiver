@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "UPDATE post_links SET status = 'pending', error = NULL, file_path = NULL, file_path_pattern = NULL",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": []
+  },
+  "hash": "b8bb44e0d937449d403758968ec0d2bdb01c23978de78a452baabf4c87020d24"
+}

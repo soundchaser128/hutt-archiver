@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "UPDATE post_links SET status = 'downloaded', file_path = ?, file_path_pattern = ? WHERE rowid = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 3
+    },
+    "nullable": []
+  },
+  "hash": "92f2af728a913136218c07aeede3a78e4dec444d04abf9e150ac6c6ef1db1c0b"
+}

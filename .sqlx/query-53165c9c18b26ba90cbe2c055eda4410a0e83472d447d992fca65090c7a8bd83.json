@@ -1,0 +1,110 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT p.id, p.title, p.creator, p.tags, p.post_type, p.like_count, p.generated_title, p.created_at,\n                   pl.rowid, pl.url, pl.content_type, pl.source, pl.status, pl.error, pl.file_path, pl.file_path_pattern\n            FROM posts p INNER JOIN post_links pl ON p.id = pl.post_id\n            ORDER BY p.id ASC",
+  "describe": {
+    "columns": [
+      {
+        "name": "id",
+        "ordinal": 0,
+        "type_info": "Integer"
+      },
+      {
+        "name": "title",
+        "ordinal": 1,
+        "type_info": "Text"
+      },
+      {
+        "name": "creator",
+        "ordinal": 2,
+        "type_info": "Text"
+      },
+      {
+        "name": "tags",
+        "ordinal": 3,
+        "type_info": "Text"
+      },
+      {
+        "name": "post_type",
+        "ordinal": 4,
+        "type_info": "Text"
+      },
+      {
+        "name": "like_count",
+        "ordinal": 5,
+        "type_info": "Integer"
+      },
+      {
+        "name": "generated_title",
+        "ordinal": 6,
+        "type_info": "Text"
+      },
+      {
+        "name": "created_at",
+        "ordinal": 7,
+        "type_info": "Text"
+      },
+      {
+        "name": "rowid",
+        "ordinal": 8,
+        "type_info": "Integer"
+      },
+      {
+        "name": "url",
+        "ordinal": 9,
+        "type_info": "Text"
+      },
+      {
+        "name": "content_type",
+        "ordinal": 10,
+        "type_info": "Text"
+      },
+      {
+        "name": "source",
+        "ordinal": 11,
+        "type_info": "Text"
+      },
+      {
+        "name": "status",
+        "ordinal": 12,
+        "type_info": "Text"
+      },
+      {
+        "name": "error",
+        "ordinal": 13,
+        "type_info": "Text"
+      },
+      {
+        "name": "file_path",
+        "ordinal": 14,
+        "type_info": "Text"
+      },
+      {
+        "name": "file_path_pattern",
+        "ordinal": 15,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  "hash": "53165c9c18b26ba90cbe2c055eda4410a0e83472d447d992fca65090c7a8bd83"
+}
